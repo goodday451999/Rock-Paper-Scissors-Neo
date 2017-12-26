@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Stone Paper Scissors Game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Stone Paper Scissors</h1>
+	</header>
+
+	<div class="score-board">
+		<div id="user-level" class="badge">User</div>
+		<div id="computer-level" class="badge">Comp</div>
+		<span id="user-score">0</span>:<span id="computer-score">0</span>
+	</div>
+	<div class="result">
+		<p>Paper Covers Stone!! You win :)</p>
+	</div>
+
+	<div class="choices">
+		<div class="choice" id="st">
+			<img src="images/stone.png" alt="STONE">
+		</div>
+		<div class="choice" id="pa">
+			<img src="images/paper.png" alt="PAPER">
+		</div>
+		<div class="choice" id="sc">
+			<img src="images/scissors.png" alt="SCISSORS">
+		</div>
+	</div>
+
+	<div class="audios">
+		<div class="audio" id="w">
+			<audio src="audios/win.mp3"></audio>
+		</div>
+		<div class="audio" id="l">
+			<audio src="audios/loose.mp3"></audio>
+		</div>
+		<div class="audio" id="d">
+			<audio src="audios/draw.mp3"></audio>
+		</div>
+	</div>
+
+	<p id="action-message">Make Your Move</p>
+
+	<script src="app.js" type="text/javascript" charset="utf-8"></script>
+
+	<audio src="audios/backgroundMusic.mp3" controls autoplay></audio>
+
+</body>
+</html>
