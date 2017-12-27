@@ -19,7 +19,7 @@ function getComputerChoice() {
 
 function convertToWord(letters) {
 	if(letters === 'st') {
-		return "Stone";
+		return "Rock";
 	}
 	else if(letters === "pa") {
 		return "Paper";
